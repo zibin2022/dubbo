@@ -1,0 +1,20 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "dubbo",
+  "steps": [
+    {
+      "title": "dubbo-remoting",
+      "description": ""
+    },
+    {
+      "file": "dubbo-native/src/main/java/org/apache/dubbo/aot/generate/JarScanner.java",
+      "description": "jar scanner",
+      "line": 35
+    },
+    {
+      "title": "Introduction",
+      "description": "Apache Dubbo是一个基于Java的高性能开源远程过程调用（RPC）框架，可以在分布式系统中提供高效且可扩展的通信。它通过为常见的分布式系统模式（例如服务发现、负载均衡和容错）提供高级抽象，简化了分布式应用程序的开发。通过Dubbo，开发人员可以更容易地编写分布式应用程序，并确保它们能够在分布式环境中高效地工作。\n\nfeatures\n\n透明化接口的远程过程调用（RPC）\n智能负载均衡\n自动服务注册和发现\n高度可扩展性\n运行时流量路由\n可视化服务治理"
+    }
+  ],
+  "isPrimary": true
+}
